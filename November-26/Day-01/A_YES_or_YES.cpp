@@ -20,10 +20,14 @@ int main()
         string s;
         cin >> s;
 
-        for (int i = 0; i < s.size(); i++)
-        {
-            s[i] = tolower(s[i]);
-        }
+        // for (int i = 0; i < s.size(); i++)
+        // {
+        //     s[i] = tolower(s[i]);
+        // }
+
+        // If we use transform function
+        transform(s.begin(), s.end(), s.begin(), ::tolower);
+
         if (s == "yes")
         {
             cout << "YES\n";
