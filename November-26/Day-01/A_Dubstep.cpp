@@ -18,7 +18,7 @@ int main()
     string s;
     cin >> s;
 
-    string OriginalSong = "";
+    string OriginalSong = ""; // Here is empty string where make is Original string make store;
 
     for (int i = 0; i < s.size(); i++)
     {
