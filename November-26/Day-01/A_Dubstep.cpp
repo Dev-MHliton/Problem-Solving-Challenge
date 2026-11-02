@@ -22,12 +22,12 @@ int main()
 
     for (int i = 0; i < s.size(); i++)
     {
-        if (i + 2 < s.size() && s[i] == 'W' && s[i + 1] == 'U' && s[i + 2] == 'B')
+        if (i + 2 < s.size() && s[i] == 'W' && s[i + 1] == 'U' && s[i + 2] == 'B') // Remix word exclusion;
         {
             if (!OriginalSong.empty() &&
                 OriginalSong.back() != ' ')
             {
-                OriginalSong += " ";
+                OriginalSong += " "; // Adding space ;
             }
 
             i += 2;
