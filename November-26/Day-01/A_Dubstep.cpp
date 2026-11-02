@@ -38,7 +38,7 @@ int main()
         }
     }
 
-    if (!OriginalSong.empty() && OriginalSong.back() == ' ')
+    if (!OriginalSong.empty() && OriginalSong.back() == ' ') // Last space exclusion from string;
     {
         OriginalSong.pop_back();
     }
