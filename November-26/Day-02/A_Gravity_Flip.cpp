@@ -21,7 +21,7 @@ int main()
     {
         int x;
         cin >> x;
-        v.pb(x);
+        v.pb(x); // This is macro way that means push_back
     }
 
     sort(v.begin(), v.end());
